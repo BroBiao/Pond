@@ -2,7 +2,7 @@ import pandas as pd
 import random
 
 
-file_path = './training_tokens.parquet'
+file_path = './data/training_tokens.parquet'
 df = pd.read_parquet(file_path, engine='pyarrow')
 
 new_df = pd.DataFrame()
